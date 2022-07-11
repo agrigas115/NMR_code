@@ -8,3 +8,6 @@ Files:
 
 -NMR_PDBID.txt  contains a list of the PDB IDs of the NMR structures analyzed. This includes all available NMR structures on the PDB that have accessible experimental restraint data and are not missing any heteroatoms. Restraint data was accessed using the Python API PyPDB: https://github.com/williamgilpin/pypdb
 
+-nmr_packing_data.npy is a NumPy array that contains packing data and other features for the NMR structures, where each row is a different NMR bundle, corresponding to the order in NMR_PDBID.txt. The columns contain:
+
+| Average core packing fraction | Average fraction core | Number of residues | 
