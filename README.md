@@ -4,7 +4,7 @@ This repository contains information on the calculations presented in: A. T. Gri
 
 Files:
 
--xtal_PDBID.txt contains a list of the PDB IDs of the x-ray crystal structures analyzed. These structures have a resolution cutoff od <= 1.8 Angstroms, as well as a 20% sequency identity cutoff. This set was access from the PISCES server: http://dunbrack.fccc.edu/pisces/
+-xtal_PDBID.txt contains a list of the PDB IDs of the x-ray crystal structures analyzed. These structures have a resolution cutoff of <= 1.8 Angstroms, as well as a 20% sequency identity cutoff. This set was access from the PISCES server: http://dunbrack.fccc.edu/pisces/
 
 -NMR_PDBID.txt  contains a list of the PDB IDs of the NMR structures analyzed. This includes all available NMR structures on the PDB that have accessible experimental restraint data and are not missing any heteroatoms. Restraint data was accessed using the Python API PyPDB: https://github.com/williamgilpin/pypdb
 
